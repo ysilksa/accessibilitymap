@@ -29,17 +29,13 @@ export default tseslint.config([
       perfectionist,
     },
     rules: {
-      "perfectionist/sort-imports": ["warn", {
-        "type": "alphabetical",
-        "groups": [
-          "builtin",
-          "external",
-          "internal",
-          "parent",
-          "sibling",
-          "index",
-        ],
-      }],
+      "perfectionist/sort-imports": [
+        "warn",
+        {
+          type: "alphabetical",
+          groups: ["builtin", "external", "internal", "parent", "sibling", "index"],
+        },
+      ],
     },
   },
   {
@@ -75,5 +71,5 @@ export default tseslint.config([
       "react/react-in-jsx-scope": "off",
       "react/prop-types": "off",
     },
-  }, 
+  },
 ]);
