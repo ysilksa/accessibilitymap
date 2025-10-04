@@ -7,3 +7,6 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+
+Location.create(name: "Test Location 1", address: "Test Address 1", nodes: [])
+Location.create(name: "Test Location 2", address: "Test Address 2", nodes: [])
