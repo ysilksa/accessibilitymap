@@ -287,6 +287,8 @@ GEM
       rubocop (>= 1.72)
       rubocop-performance (>= 1.24)
       rubocop-rails (>= 2.30)
+    rubocop-shopify (2.17.1)
+      rubocop (~> 1.62)
     ruby-progressbar (1.13.0)
     rubyzip (3.1.1)
     securerandom (0.4.1)
@@ -387,7 +389,9 @@ DEPENDENCIES
   propshaft
   puma (>= 5.0)
   rails (~> 8.0.3)
+  rubocop
   rubocop-rails-omakase
+  rubocop-shopify
   selenium-webdriver
   solid_cable
   solid_cache
