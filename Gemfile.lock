@@ -94,7 +94,6 @@ GEM
       rack-test (>= 0.6.3)
       regexp_parser (>= 1.5, < 3.0)
       xpath (~> 3.2)
-    class_variants (1.1.0)
     concurrent-ruby (1.3.5)
     connection_pool (2.5.4)
     crass (1.0.6)
@@ -146,8 +145,6 @@ GEM
     loofah (2.24.1)
       crass (~> 1.0.2)
       nokogiri (>= 1.12.0)
-    lucide-rails (0.5.1)
-      railties (>= 4.1.0)
     mail (2.8.1)
       mini_mime (>= 0.1.1)
       net-imap
@@ -198,12 +195,6 @@ GEM
     pg (1.6.2-arm64-darwin)
     pg (1.6.2-x86_64-linux)
     pg (1.6.2-x86_64-linux-musl)
-    phlex (2.3.1)
-      zeitwerk (~> 2.7)
-    phlex-rails (2.3.1)
-      phlex (~> 2.3.0)
-      railties (>= 7.1, < 9)
-      zeitwerk (~> 2.7)
     pp (0.6.2)
       prettyprint
     prettyprint (0.2.0)
@@ -307,12 +298,6 @@ GEM
       rexml (~> 3.2, >= 3.2.5)
       rubyzip (>= 1.2.2, < 4.0)
       websocket (~> 1.0)
-    shadcn_phlexcomponents (1.0.0)
-      class_variants (~> 1.1)
-      lucide-rails (~> 0.5.1)
-      phlex-rails (~> 2.1)
-      tailwind_merge (~> 1.0)
-    sin_lru_redux (2.5.2)
     solid_cable (3.0.12)
       actioncable (>= 7.2)
       activejob (>= 7.2)
@@ -339,8 +324,6 @@ GEM
     stimulus-rails (1.3.4)
       railties (>= 6.0.0)
     stringio (3.1.7)
-    tailwind_merge (1.3.1)
-      sin_lru_redux (~> 2.5)
     tailwindcss-rails (4.3.0)
       railties (>= 7.0.0)
       tailwindcss-ruby (~> 4.0)
@@ -396,26 +379,22 @@ DEPENDENCIES
   bootsnap
   brakeman
   capybara
-  class_variants (~> 1.1)
   debug
   importmap-rails
   jbuilder
   kamal
-  lucide-rails (~> 0.5.1)
   pg (~> 1.1)
-  phlex-rails (~> 2.3)
   propshaft
   puma (>= 5.0)
   rails (~> 8.0.3)
   rubocop-rails-omakase
   selenium-webdriver
-  shadcn_phlexcomponents (~> 1.0)
   solid_cable
   solid_cache
   solid_queue
   stimulus-rails
-  tailwind_merge (~> 1.3)
   tailwindcss-rails (~> 4.3)
+  tailwindcss-ruby (~> 4.1)
   thruster
   turbo-rails
   tzinfo-data

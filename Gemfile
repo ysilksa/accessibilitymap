@@ -62,9 +62,5 @@ group :test do
   gem "selenium-webdriver"
 end
 
-gem "shadcn_phlexcomponents", "~> 1.0"
-gem "phlex-rails", "~> 2.3"
+gem "tailwindcss-ruby", "~> 4.1"
 gem "tailwindcss-rails", "~> 4.3"
-gem "tailwind_merge", "~> 1.3"
-gem "lucide-rails", "~> 0.5.1"
-gem "class_variants", "~> 1.1"
