@@ -1,0 +1,17 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install:deps": "bundle install",
+    "dev": "rails server",
+    "lint": "rubocop",
+    "lint:fix": "rubocop -a",
+    "lint:force": "rubocop -A",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
