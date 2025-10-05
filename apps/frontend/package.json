@@ -6,7 +6,7 @@
   "scripts": {
     "install:deps": "pnpm install",
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "tsc -b && vite build && rm -rf ../backend/public/assets && cp -r dist/* ../backend/public",
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
     "format": "prettier --write .",

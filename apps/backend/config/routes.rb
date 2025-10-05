@@ -8,4 +8,11 @@ Rails.application.routes.draw do
       resources :locations
     end
   end
+
+  if Rails.env.production?
+    get "*path", to: "fallback#index", constraints: ->(req) {
+      !req.xhr? && req.format.html?
+    }
+    root "fallback#index"
+  end
 end
